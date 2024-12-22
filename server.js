@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors({
-    origin:["http://localhost:3000"],
+    origin:["https://top-class2.vercel.app"],
     methods:["POST","GET"],
     credentials:true}));
 
